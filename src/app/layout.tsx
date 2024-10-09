@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { NavigationBar } from "@/components/navbar/navigation-menu";
 import { ThemeProvider } from "@/components/theme-provider"
+import { Toaster } from "@/components/ui/toaster";
 
 
 
@@ -40,6 +41,7 @@ export default function RootLayout({
         >
         <NavigationBar/>
         {children}
+        <Toaster/>
         </ThemeProvider>
       </body>
     </html>
