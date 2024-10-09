@@ -1,5 +1,4 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Bold } from "lucide-react"
 import Image from "next/image";
 import Cat from "@/app/assets/cat.jpg";
 
