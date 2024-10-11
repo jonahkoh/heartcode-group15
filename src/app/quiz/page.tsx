@@ -81,7 +81,7 @@ const quizThemes = [
   },
   {
     id: "common-drugs",
-    title: "Common Substance b and Their Effects",
+    title: "Common substance abuse and effects",
     icon: Pill,
     questions: [
       {
@@ -346,7 +346,7 @@ export default function ThematicSubstanceAbuseQuiz() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-100 to-purple-100 p-4">
+    <div className="min-h-screen flex items-center justify-center bg-no-repeat bg-fixed bg-cover bg-[url('/quizbg.jpg')] p-5">
       <div className="w-full max-w-3xl">
         <Card className="backdrop-blur-sm bg-white/80 shadow-xl">
           <CardHeader className="relative">

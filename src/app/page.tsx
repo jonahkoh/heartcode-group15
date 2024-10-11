@@ -26,8 +26,8 @@ export default function Home() {
 
       </div>
       </div>
-
-      <div className="min-h-screen bg-gradient-to-br from-green-100 to-blue-100 p-4 flex items-center justify-center">
+      
+      <div className="min-h-screen bg-no-repeat bg-fixed bg-cover bg-[url('/scary.jpg')] p-4 flex items-center justify-center">
       <Card className="w-full max-w-4xl backdrop-blur-sm bg-white/90 shadow-xl">
         <CardHeader className="relative">
           <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-blue-500 rounded-t-lg" />
