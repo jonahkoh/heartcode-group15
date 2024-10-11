@@ -87,7 +87,7 @@ export default function Home() {
                 <h2 className="text-2xl font-semibold mb-4 flex items-center"><Brain className="mr-2" /> Why Avoid Substance Abuse</h2>
                 <p className="mb-4">There are numerous reasons to avoid substance abuse:</p>
                 <ul className="list-disc pl-6 mb-4">
-                  <li>Health risks: Substance abuse can lead to serious physical and mental health problems.</li>
+                  <li>Health risks: substance abuse can lead to serious physical and mental health problems.</li>
                   <li>Legal consequences: Singapore has strict laws against drug use and possession.</li>
                   <li>Social impact: Addiction can strain relationships with family and friends.</li>
                   <li>Financial burden: Substance abuse can be expensive and impact your financial stability.</li>
