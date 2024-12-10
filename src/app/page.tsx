@@ -11,8 +11,6 @@ export default function Home() {
            Drugs are bad guys
         </CardDescription>
       </Card>
-    </div>
-  )}
     <Card>
     <CardHeader>
       <CardTitle>
@@ -23,3 +21,5 @@ export default function Home() {
       </CardDescription>
     </CardHeader>
     </Card>
+    </div>
+      )}
