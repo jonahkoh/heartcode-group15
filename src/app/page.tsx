@@ -13,3 +13,13 @@ export default function Home() {
       </Card>
     </div>
   )}
+    <Card>
+    <CardHeader>
+      <CardTitle>
+        Hi I am Yee Xian.
+      </CardTitle>
+      <CardDescription>
+        Hi.
+      </CardDescription>
+    </CardHeader>
+    </Card>
