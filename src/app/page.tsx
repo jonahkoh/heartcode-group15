@@ -1,3 +1,5 @@
+import { Card, CardDescription, CardTitle } from "@/components/ui/card";
+
 export default function Home() { 
   return (
     <div>
@@ -10,3 +12,4 @@ export default function Home() {
         </CardDescription>
       </Card>
     </div>
+  )}
