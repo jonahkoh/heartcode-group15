@@ -13,7 +13,7 @@ export default function KohWenBaoProfile() {
  
 
   return (
-    <div className="min-h-screen bg-[url('/dancingcat.gif')] p-4 flex items-center justify-center overflow-hidden">
+    <div className="min-h-screen bg-[url('/brawl.png')] p-4 flex items-center justify-center">
       <AnimatePresence mode="wait">
         <motion.div
           key={currentCatIndex}
@@ -82,10 +82,6 @@ export default function KohWenBaoProfile() {
             </div>
           </Tabs>
         </CardContent>
-        <CardFooter className="flex justify-between items-center bg-white/30 backdrop-blur-sm">
-          <p className="text-sm text-gray-600">© 2024 Koh Wen Bao</p>
-
-        </CardFooter>
       </Card>
     </div>
   )
