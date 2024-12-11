@@ -7,13 +7,13 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Code, GraduationCap, Heart, Laptop, Cat, Coffee } from "lucide-react"
 
-export default function KohWenBaoProfile() {
+export default function group15profile() {
   const [currentCatIndex, setCurrentCatIndex] = useState(0)
 
  
 
   return (
-    <div className="min-h-screen bg-[url('/brawl.png')] p-4 flex items-center justify-center">
+    <div className="min-h-screen bg-[url('/brawl.png')] p-4 bg-no-repeat bg-cover bg-center bg-auto flex items-center justify-center">
       <AnimatePresence mode="wait">
         <motion.div
           key={currentCatIndex}
